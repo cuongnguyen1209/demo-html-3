@@ -1,0 +1,44 @@
+@media (max-width:1024px) {
+    
+    .container, .header-top,
+    .menu, .navbar-form .input-group>.form-control,
+    .best-selling, .discount, .news, .footer, .footer .footer-info, .footer .footer-policy,
+    .footer .footer-fanpape, .footer .contact-info, .footer .sitemap {
+        width:100%;
+    }
+    .menu .category .dropdown .btn-primary {
+        border-radius: unset;
+    }
+    .header-top-icon, .menu .category .dropdown h4, .menu .category .dropdown i {
+        display: none;
+    }
+    .sitemap .navbar-nav {
+        margin-left:0;
+    }
+
+    .menu .category .dropdown .btn-primary {
+        margin-bottom: 30px;
+    }
+    .navbar-nav{
+        display: none;
+    }
+    .category, .footer .sitemap  .navbar-nav, .topnav {
+        display: block;
+    }
+    .copy-right p {
+        margin: 0;
+    }
+    .product input {
+        width: 128px;
+        margin-bottom: 10px;
+    }
+    .footer {
+        background: #323232;
+    }
+    .owl-theme .owl-nav, .owl-theme .owl-dots {
+        display: none;
+    }
+    .title-right-1 .nav-tabs>li a {
+        padding: 10px 18px;
+    }
+}
